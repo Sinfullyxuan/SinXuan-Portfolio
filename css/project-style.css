@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }  
+
+  body{
+    background-color: #e4ddeb;
+  }
+
+  p{
+    color: #140028;
+  }
+
+  .header {
+    text-align: center;
+    padding: 0 0vw;
+    margin: 0;
+    transform: translateY(-22%);
+  }
+
+  .logo {
+    font-family: "Cinzel", serif;
+    font-size: 20rem;
+    font-weight: 600;
+    letter-spacing: 8px;
+    color: #140028;
+  }
+
+  .title-section {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    color: #140028;
+  }
+  
+  .title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .left-title h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .right-date {
+    text-align: right;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    padding-right: 1rem;
+  }
+  
+  .section-divider {
+    width: 100%;
+    height: 2px;
+    background-color: #140028;
+    border: none;
+    margin-top: 1.5rem;
+  }
+
+  .wrapper {
+    margin: 2rem;
+    align-items: center;
+  }
+
+  .project-section {
+    display: flex;
+    justify-content: space-between;  /* Pushes image and table apart */
+    align-items: flex-end;         /* Aligns tops */
+    padding: 0 13.5rem;
+    flex-wrap: wrap;                 /* Keeps it responsive */
+  }
+  .project-image img {
+    max-width: 40vw;
+    width: 100%;
+  }
+  .project-info {
+    max-width: 30vw;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  .project-info h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .project-info p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* ✅ this centers all gallery items */
+    gap: 2rem;
+    padding: 3rem;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .gallery-item p {
+    margin-top: 0.5rem;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1rem;
+  }
+  
+
+  .cta-section {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: left;
+
+  }
+  
+  .btn-line-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: -0.5rem; /* 🔼 Pull everything up slightly */
+  }
+  
+  .btn-line {
+    flex: 1;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 0;
+    margin-top: -5rem;
+  }
+  
+  .back-btn {
+    padding: 1rem 3rem;
+    background: black;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap; /* Keeps the button text in one line */
+    margin-top: -1rem;
+    margin-right: 3rem;
+  }
+
+  #chickenrice-page{
+    
+    background-color: #e7d5c4;
+
+    h1, p{
+        color: #311c12;
+      }
+
+      .logo {
+        font-size: 15rem;
+      }  
+      .title-section {
+        color: #311c12;
+      }
+      .section-divider {
+        background-color: #311c12;
+      }
+
+      .btn-line {
+        background-color: #311c12;
+      }
+
+      .back-btn {
+        background: #311c12;
+        color: #e7d5c4;
+        font-family: "Noto Sans", sans-serif;
+      }
+
+
+      
+
+    
+  }
+
+
+  #moomoo-page{
+    
+    background-color: #d6e0cd;
+
+    h1, h2, p{
+        color: #113517;
+      }
+
+      .logo {
+        font-size: 12rem;
+      }  
+      .title-section {
+        color: #113517;
+      }
+      .section-divider {
+        background-color: #113517;
+      }
+
+      .btn-line {
+        background-color: #113517;
+      }
+
+      .back-btn {
+        background: #113517;
+        color: #d6e0cd;
+        font-family: "Noto Sans", sans-serif;
+      }
+
+      .gallery {
+        display: flex;
+        flex-direction: column;   /* 🔽 Stack vertically */
+        align-items: center;      /* ✅ Center horizontally */
+        gap: 2rem;                /* Space between images */
+        padding: 3rem;
+      }
+
+      .gallery-item {
+        text-align: center;
+      }
+      
+
+      .gallery-item img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .gallery-item p {
+        margin-top: 0.5rem;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 1rem;
+      }
+      
+  }
+
+  #humanerror-page{
+
+    background-color: #000000;
+
+    h1, h2, p{
+        color: #ebe5e5;
+      }
+      .logo {
+        font-size: 15rem;
+      }  
+      .title-section {
+        color: #ebe5e5;
+      }
+      .section-divider {
+        background-color: #ebe5e5;
+      }
+
+      .project-image img {
+        max-width: 40vw;
+        width: 100%;
+      }
+      .project-info {
+        max-width: 30vw;
+        font-family: "Noto Sans", sans-serif;
+      }
+      
+      .project-info h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      
+      .project-info p {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+
+      .btn-line {
+        background-color: #ebe5e5;
+      }
+
+      .back-btn {
+        background: #ebe5e5;
+        color: #000000;
+        font-family: "Noto Sans", sans-serif;
+      }
+
+      .gallery {
+        padding: 5rem 2rem;
+        background-color: #000000;
+      }
+      
+      .gallery-container {
+        max-width: 80%;
+        margin: 1 auto;
+        text-align: center;
+      }
+      
+      .gallery-header {
+        margin-bottom: 2rem;
+        color: #ebe5e5;
+      }
+      
+      .gallery-header h2 {
+        font-size: 2rem;
+        font-family: "Noto Sans", sans-serif;
+ 
+        margin-bottom: 0.5rem;
+      }
+      
+      .gallery-header p {
+        font-size: 1.2rem;
+        font-family: 'Noto Sans', sans-serif;
+      }
+      
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        justify-items: center;
+      }
+      
+      .gallery-item {
+        text-align: center;
+      }
+      
+      .gallery-item img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .gallery-item p {
+        margin-top: 0.5rem;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 1rem;
+        color: #140028;
+      }
+
+
+  }
+
+  @media (max-width: 600px) {
+
+    #moomoo-page{
+
+        .logo {
+            font-size: 3.5rem; /* much smaller for mobile */
+            transform: translateY(10%);
+            letter-spacing: 3px;
+          }
+        
+          .title-section {
+            padding: 1.5rem;
+            text-align: center;
+          }
+        
+          .title-row {
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+          }
+        
+          .left-title h2 {
+            font-size: 2rem;
+          }
+        
+          .right-date {
+            font-size: 1rem;
+            text-align: center;
+            padding-right: 0;
+          }
+        
+          .project-section {
+            flex-direction: column;
+            align-items: center;
+            padding: 0 2rem;
+            gap: 2rem;
+          }
+        
+          .project-image img,
+          .project-info {
+            max-width: 100%;
+          }
+        
+          .project-info h2 {
+            font-size: 2rem;
+          }
+        
+          .project-info p {
+            font-size: 1.2rem;
+          }
+        
+          .gallery {
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+          }
+        
+        
+          .cta-section {
+            margin: 0rem 1rem;
+            text-align: center;
+            font-size: 1.1rem;
+          }
+        
+          .btn-line-wrapper {
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 1rem;
+          }
+        
+          .btn-line {
+            display: none; /* hide the horizontal line on mobile */
+          }
+        
+          .back-btn {
+            margin: 0;
+            width: 100%;
+            text-align: center;
+            padding: 1rem;
+          }
+    }
+
+  }
+
+
+  @media screen and (min-width: 1024px) {
+
+    #moomoo-page{
+
+        .logo {
+            font-size: 6rem;
+            letter-spacing: 4px;
+          }
+        
+          .title-section {
+            padding: 2rem;
+            text-align: center;
+          }
+        
+          .title-row {
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+          }
+        
+          .left-title h2 {
+            font-size: 2.5rem;
+          }
+        
+          .right-date {
+            font-size: 1.2rem;
+            text-align: center;
+            padding-right: 0;
+          }
+        
+          .project-section {
+            flex-direction: column;
+            align-items: center;
+            padding: 0 3rem;
+            gap: 2rem;
+          }
+        
+          .project-image img,
+          .project-info {
+            max-width: 100%;
+          }
+        
+          .project-info h2 {
+            font-size: 2.2rem;
+          }
+        
+          .project-info p {
+            font-size: 1.4rem;
+          }
+        
+          .gallery {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+          }
+        
+          .gallery-item {
+            width: 100%;
+            text-align: center;
+          }
+        
+          .gallery-item img {
+            width: 100%;
+            max-width: 100%;
+          }
+        
+          .cta-section {
+            margin: 2rem;
+            text-align: center;
+            font-size: 1.2rem;
+          }
+        
+          .btn-line-wrapper {
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 1rem;
+          }
+        
+          .btn-line {
+            display: none;
+          }
+        
+          .back-btn {
+            margin: 0 auto;
+            width: 60%;
+            padding: 1rem;
+    }
+    
+
+  }  
+
+}
+
+  @media screen and (min-width: 1280px) {
+
+#moomoo-page{
+    .logo {
+        font-size: 12rem;
+        letter-spacing: 8px;
+      }
+    
+      .title-section {
+        padding: 3rem 6rem;
+        text-align: left;
+      }
+    
+      .title-row {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    
+      .left-title h2 {
+        font-size: 3rem;
+      }
+    
+      .right-date {
+        text-align: right;
+        font-size: 1.5rem;
+      }
+    
+      .project-section {
+        flex-direction: row;
+        align-items: flex-end;
+        padding: 0 13.5rem;
+        gap: 3rem;
+      }
+
+      .project-image img {
+        max-width: 40vw;
+        width: 100%;
+      }
+
+      .project-info {
+        max-width: 30vw;
+        font-family: "Noto Sans", sans-serif;
+      }
+    
+      .project-info h2 {
+        font-size: 2.5rem;
+      }
+    
+      .project-info p {
+        font-size: 1.5rem;
+      }
+    
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* ✅ this centers all gallery items */
+        gap: 2rem;
+        padding: 3rem;
+      }
+    
+      .gallery-item {
+        width: 80%;
+      }
+    
+      .cta-section {
+        margin: 4rem 6rem;
+        text-align: left;
+        font-size: 1.5rem;
+      }
+    
+      .btn-line-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 2rem;
+      }
+    
+      .btn-line {
+        display: block;
+      }
+    
+      .back-btn {
+        width: auto;
+        padding: 1rem 3rem;
+        margin-right: 0;
+      } 
+}
+    
+
+
+
+    
+    
+  }
