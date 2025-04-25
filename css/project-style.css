@@ -186,13 +186,48 @@
         background: #311c12;
         color: #e7d5c4;
         font-family: "Noto Sans", sans-serif;
+      } 
+  }
+
+  #tothemoon-page{
+    
+    background-color: #aaa8c4;
+
+    h1, p{
+        color: #322c66;
       }
 
+      .logo {
+        font-size: 15rem;
+      }  
+      .title-section {
+        color: #322c66;
+        text-align: left;
+      }
 
-      
+      .project-section {
+        display: flex;
+        justify-content: space-between;  /* Pushes image and table apart */
+        align-items: flex-end;         /* Aligns tops */
+        padding: 0 30.5rem;
+        flex-wrap: wrap;                 /* Keeps it responsive */
+      }
 
-    
+      .section-divider {
+        background-color: #322c66;
+      }
+
+      .btn-line {
+        background-color: #322c66;
+      }
+
+      .back-btn {
+        background: #322c66;
+        color: #e7d5c4;
+        font-family: "Noto Sans", sans-serif;
+      } 
   }
+
 
 
   #moomoo-page{
@@ -488,7 +523,7 @@
 
   @media (max-width: 600px) {
 
-    #moomoo-page, #humanerror-page, #chihirodream-page, #chickenrice-page, #candid-page{
+    #moomoo-page, #humanerror-page, #chihirodream-page, #chickenrice-page, #candid-page, #tothemoon-page{
 
         .logo {
             font-size: 3.5rem; /* much smaller for mobile */
@@ -594,7 +629,7 @@
 
   @media screen and (min-width: 1024px) {
 
-    #chihirodream-page, #chickenrice-page {
+    #chihirodream-page, #chickenrice-page, #tothemoon-page {
 
         .logo {
             font-size: 10rem; /* much smaller for mobile */
@@ -725,6 +760,8 @@
 
   }  
 
+}
+
       #humanerror-page, #candid-page{
 
         .project-section {
@@ -773,6 +810,19 @@
         flex-wrap: wrap;                 /* Keeps it responsive */
       }
 
+    }
+
+    #tothemoon-page{
+      .project-section {
+        display: flex;
+        justify-content: space-between;  /* Pushes image and table apart */
+        align-items: flex-end;         /* Aligns tops */
+        padding: 0 20.5rem;
+      }
+
+      .project-image img {
+        max-width: 60vw;
+        width: 100%;
     }
 
 
