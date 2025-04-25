@@ -228,6 +228,45 @@
       } 
   }
 
+  #kopi-page{
+    
+    background-color: #f0dbde;
+
+    h1, p{
+        color: #8d596d;
+      }
+
+      .logo {
+        font-size: 15rem;
+      }  
+      .title-section {
+        color: #8d596d;
+        text-align: left;
+      }
+
+      .project-section {
+        display: flex;
+        justify-content: space-between;  /* Pushes image and table apart */
+        align-items: flex-end;         /* Aligns tops */
+        padding: 0 30.5rem;
+        flex-wrap: wrap;                 /* Keeps it responsive */
+      }
+
+      .section-divider {
+        background-color: #8d596d;
+      }
+
+      .btn-line {
+        background-color: #8d596d;
+      }
+
+      .back-btn {
+        background: #8d596d;
+        color: #f0dbde;
+        font-family: "Noto Sans", sans-serif;
+      } 
+  }
+
 
 
   #moomoo-page{
@@ -523,7 +562,7 @@
 
   @media (max-width: 600px) {
 
-    #moomoo-page, #humanerror-page, #chihirodream-page, #chickenrice-page, #candid-page, #tothemoon-page{
+    #moomoo-page, #humanerror-page, #chihirodream-page, #chickenrice-page, #candid-page, #tothemoon-page, #kopi-page{
 
         .logo {
             font-size: 3.5rem; /* much smaller for mobile */
@@ -629,7 +668,7 @@
 
   @media screen and (min-width: 1024px) {
 
-    #chihirodream-page, #chickenrice-page, #tothemoon-page {
+    #chihirodream-page, #chickenrice-page, #tothemoon-page, #kopi-page {
 
         .logo {
             font-size: 10rem; /* much smaller for mobile */
@@ -824,11 +863,24 @@
         max-width: 60vw;
         width: 100%;
     }
+}
 
 
+#kopi-page{
+  .project-section {
+    display: flex;
+    justify-content: space-between;  /* Pushes image and table apart */
+    align-items: center;         /* Aligns tops */
+    padding: 0 10.5rem;
+  }
 
+  .project-image img {
+    max-width: 80vw;
+    width: 100%;
+}
 
 }
+
 
   @media screen and (min-width: 1280px) {
 
