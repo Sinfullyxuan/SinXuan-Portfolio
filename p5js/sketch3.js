@@ -8,7 +8,7 @@ const projectSketch = (p) => {
 
   p.setup = () => {
     const section = document.getElementById('projects');
-    let canvas = p.createCanvas(section.offsetWidth, section.offsetHeight);
+    let canvas = p.createCanvas(section.offsetWidth, section.offsetHeight + 1);
     canvas.parent('projects-sketch');
     canvas.position(0, 0);
     canvas.style('z-index', '0');
